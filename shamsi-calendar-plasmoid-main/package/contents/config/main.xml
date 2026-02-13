@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+
+    <group name="Appearance">
+        <entry name="holidayColor" type="String">
+            <default>#dd1f28</default>
+        </entry>
+        <entry name="eventColor" type="String">
+            <default>#0c61b9</default>
+        </entry>
+        <entry name="calendarCellFontSizeMode" type="String">
+            <default>fit</default>
+        </entry>
+        <entry name="calendarCellFontPixelSizeScale" type="Double">
+            <default>1.2</default>
+        </entry>
+        <entry name="fontStatus" type="String">
+            <default>default</default>
+        </entry>
+        <entry name="fontFamily" type="String">
+            <default></default>
+        </entry>
+        <entry name="weekendHighlight" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="weekendHighlightDays" type="String">
+            <default></default>
+        </entry>
+        <entry name="panelPrimaryTextFormat" type="String">
+            <default><![CDATA[dddd D MMMM]]></default>
+        </entry>
+        <entry name="panelPrimaryTextFontSizeMode" type="String">
+            <default>fit</default>
+        </entry>
+        <entry name="panelPrimaryTextPixelSize" type="Int">
+            <default>16</default>
+        </entry>
+        <entry name="secondaryText" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="panelSecondaryTextFormat" type="String">
+            <default><![CDATA[dddd D MMMM]]></default>
+        </entry>
+        <entry name="secondaryTextHeight" type="Int">
+            <default>50</default>
+        </entry>
+        <entry name="panelSecondaryTextFontSizeMode" type="String">
+            <default>fit</default>
+        </entry>
+        <entry name="panelSecondaryTextPixelSize" type="Int">
+            <default>16</default>
+        </entry>
+    </group>
+
+    <group name="Event">
+        <entry name="activeEvents" type="String">
+            <default>iranlunar,iransolar</default>
+        </entry>
+    </group>
+
+    <group name="Other">
+        <entry name="tempLanguage" type="String">
+            <default>fa</default>
+        </entry>
+        <entry name="language" type="String">
+            <default>fa</default>
+        </entry>
+    </group>
+
+</kcfg>
